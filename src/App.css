@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  /* Light blue background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: #333333;
+  /* Dark grey text */
+}
+
+form {
+  background-color: #ffffff;
+  /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow */
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form Labels and Inputs */
+label {
+  display: block;
+  font-size: 1rem;
+  color: #555555;
+  /* Medium grey text */
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  /* Light grey border */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0078d7;
+  /* Bright blue button */
+  color:black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fb8;
+  /* Darker blue on hover */
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label[for="radio"] {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Results Section */
+div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Error Messages */
+.error {
+  color: #ff4d4d;
+  /* Red error text */
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
